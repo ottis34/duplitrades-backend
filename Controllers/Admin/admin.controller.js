@@ -113,7 +113,7 @@ const decreAccount = async (req, res) => {
 
       const addHistory = new History({
         email,
-        type: 'manul',
+        type: 'manual',
         amount,
         coin: 'USD',
         fees: '0',
